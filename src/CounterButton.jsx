@@ -5,16 +5,12 @@ const CounterButton = () => {
     const [count, setCount] = useState(0);
 
     const handleButtonClick = () => {
-        setCount(count + 1);
+        // handle click logic goes here
     };
 
-    return (
-        <div>
-            <button onClick={handleButtonClick}>
-                Click me! Counter: {count}
-            </button>
-        </div>
-    );
+    return {
+        /* return a button element here */
+    };
 };
 
 export default CounterButton;
